@@ -1,0 +1,11 @@
+curl https://start.spring.io/starter.zip -d dependencies=h2,data-jpa,data-rest,lombok -d javaVersion=17 -o demo.zip
+
+
+unzip demo.zip
+
+
+developmentOnly 'org.springframework.boot:spring-boot-devtools'
+
+./gradlew build --continuous --parallel --build-cache --configuration-cache
+
+.gradlew bootRun

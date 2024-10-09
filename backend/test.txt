@@ -1,0 +1,20 @@
+Reusing configuration cache.
+> Task :processTestResources NO-SOURCE
+> Task :processResources UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :resolveMainClassName UP-TO-DATE
+> Task :jar UP-TO-DATE
+> Task :compileTestJava UP-TO-DATE
+> Task :testClasses UP-TO-DATE
+> Task :bootJar UP-TO-DATE
+> Task :assemble UP-TO-DATE
+
+> Task :test FAILED
+
+DemoApplicationTests > initializationError FAILED
+    java.lang.IllegalStateException at Assert.java:76
+7 actionable tasks: 1 executed, 6 up-to-date
+Configuration cache entry reused.
+
+Waiting for changes to input files... (ctrl-d to exit)
