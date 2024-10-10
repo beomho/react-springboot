@@ -1,4 +1,4 @@
-package com.app.Config;
+package com.app.config;
 
 // WebConfig 클래스 생성 후 CORS 정책 구성
 import org.springframework.context.annotation.Bean;
